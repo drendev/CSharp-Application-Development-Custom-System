@@ -1,0 +1,71 @@
+﻿
+
+Main page:
+
+Input "1": Redirect to the log in 
+Input "2": Redirect to the sign up
+Input "3": Exit the program
+Input "4": Error message
+
+Register page:
+
+Displays "Enter new username"
+Input "test": Displays "Username must have atleast 5 characters length" prompt
+Input "testlogs": Displays "User already exist." Redirect to Enter new username prompt
+Input "": Displays "Invalid username.", Redirect to Enter new username prompt
+Input "testlog2": Displays "Enter new password" prompt
+Input "wewwewwew": Displays "Confirm password" prompt"\
+Input "wewweww2": Displays "Password does not match.", Redirect to Enter new password prompt
+Input "wew": Displays "Password must have atleast 8 characters length" prompt
+Input "wewwewwew": Displays "Enter email" prompt
+Input "test": Display "Invalid email address.", Redirect to Enter email prompt
+Input "": Display "Invalid email address.", Redirect to Enter email prompt
+Input "test@gmail.com" : Displays "Account created successfully.", Redirect to main page"
+
+Log in page:
+
+Displays "Enter username"
+
+Input "testlogs": Displays enter password prompt
+Input "wewwewwew": Displays "Log in successful", Redirect to main page
+Input "testlog2": Displays enter password prompt
+Input "wewwewwew": Displays "Invalid username or password.", Display log in prompt
+Input "": Displays "Invalid username or password.", Display log in prompt
+
+UserMenu page:
+
+Displays "Welcome, {username}"
+Input "1": Redirect to change password prompt
+Input "2": Redirect to change email prompt
+Input "3": Redirect to view my logs prompt
+Input "4": Redirect to log out prompt
+Input "5": Displays error message
+
+Change password prompt:
+
+Displays "Enter old password"
+
+Input "wewweww": Displays error message
+Input "wewwewwew": Displays "Enter new password" prompt
+Input "21232": Displays "Password must have atleast 8 characters length" prompt
+Input "12345678": Displays "Confirm password" prompt"
+Input "123456783": Displays "Password does not match.", Redirect to Enter new password
+Input "12345678": Displays "Password changed successfully.", Redirect to UserMenu page"
+
+Change email prompt:
+
+Displays "Enter new email"
+
+Input "test": Displays "Invalid email address.", Redirect to Enter new email prompt
+Input "": Displays "Invalid email address.", Redirect to Enter new email prompt
+Input "air@gmail.com": Displays "Email changed successfully.", Redirect to UserMenu page"
+
+
+View my logs prompt:
+
+Displays "No logs available" if user has no logs
+
+Displays prompt message if user want to generate logs
+
+Input "y": Generates txt file with logs in GenerateLogs folder, Redirect to UserMenu page
+Input "n": Redirect to UserMenu page
