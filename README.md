@@ -42,22 +42,22 @@
 
 ## How to run the program:
 
-##### 1. Clone the repository or unzip the file to your local machine.
-##### 2. Open the solution file using Microsoft Visual Studio 2022.
-##### 3. Edit the EnvFilePath.cs file and change the path to your desired location.
-##### 4. Run the program using the Visual Studio IDE.
+###### 1. Clone the repository or unzip the file to your local machine.
+###### 2. Open the solution file using Microsoft Visual Studio 2022.
+###### 3. Edit the EnvFilePath.cs file and change the path to your desired location.
+###### 4. Run the program using the Visual Studio IDE.
 
 
 
 ## Limitations:
 
-##### 1. No back option functionality.
+###### 1. No back option functionality.
 
 
 ## Libraries Used:
 
-##### 1. BCrypt.Net-Next - Used for hashing the password.
-##### 2. System.IO - Used for file handling.
-##### 3. System.Linq - Used for querying the list of users.
+###### 1. BCrypt.Net-Next - Used for hashing the password.
+###### 2. System.IO - Used for file handling.
+###### 3. System.Linq - Used for querying the list of users.
 
 
